@@ -9,7 +9,8 @@
     "prebuild": "node scripts/sync-menu.mjs",
     "build": "next build",
     "start": "npx serve out",
-    "lint": "eslint"
+    "lint": "eslint",
+    "postbuild": "node scripts/flatten-segments.mjs"
   },
   "dependencies": {
     "lenis": "^1.3.27",
