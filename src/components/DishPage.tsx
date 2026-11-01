@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ViewTransition } from "react";
 import { notFound } from "next/navigation";
 import { BackLink } from "./BackLink";
 import { DishBuy } from "./DishBuy";
@@ -92,7 +93,9 @@ export function DishPage({ slug, dish }: { slug: MenuSlug; dish: string }) {
             <div className="pdp__tile">
               <div className="pdp__orbit" aria-hidden />
               {d.plate ? (
-                <img src={plateSrc(d.plate)} alt={`${d.name}, illustrative photo`} width={900} height={900} className="pdp__plate" fetchPriority="high" />
+                <ViewTransition name={`plate-${d.id}`} share="morph" default="none">
+                  <img src={plateSrc(d.plate)} alt={`${d.name}, illustrative photo`} width={900} height={900} className="pdp__plate" fetchPriority="high" />
+                </ViewTransition>
               ) : (
                 <Monogram className="mono--xl" />
               )}
@@ -101,7 +104,9 @@ export function DishPage({ slug, dish }: { slug: MenuSlug; dish: string }) {
           </div>
 
           <div className="pdp__info">
-            <h1 className="display pdp__name">{d.name}</h1>
+            <ViewTransition name={`name-${d.id}`} share="morph" default="none">
+              <h1 className="display pdp__name">{d.name}</h1>
+            </ViewTransition>
             {(d.note || d.signature || veg) && (
               <p className="pdp__tags">
                 {d.signature && <span className="tag">Signature</span>}

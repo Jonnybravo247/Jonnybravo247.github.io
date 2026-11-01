@@ -78,8 +78,8 @@ html { scrollbar-color: color-mix(in srgb, var(--gold) 70%, transparent) var(--g
 .skip { position: fixed; left: 24px; top: -60px; z-index: 200; background: var(--accent); color: var(--on-accent); padding: 10px 16px; font-family: var(--f-label); }
 .skip:focus { top: 24px; }
 
-.page-in { animation: page-in 0.9s var(--ease) both; }
-@keyframes page-in { from { opacity: 0; transform: translateY(18px); } }
+.page-in { animation: page-in 0.6s var(--ease) both; }
+@keyframes page-in { from { opacity: 0; } }
 .rise { display: block; animation: rise 1s var(--ease) both; animation-delay: var(--d, 0ms); }
 @keyframes rise { from { opacity: 0; transform: translateY(28px); } }
 
@@ -419,7 +419,7 @@ body:has(.top--hidden) .cats { top: 28px; }
 .pdp__stage { position: sticky; top: calc(var(--head-h) + 24px); }
 .pdp__tile { position: relative; aspect-ratio: 1; border-radius: calc(var(--radius) * 2); background: var(--tile); display: grid; place-items: center; overflow: hidden; }
 .pdp__orbit { position: absolute; width: 90%; aspect-ratio: 1; border-radius: 50%; border: 1px solid var(--line); }
-.pdp__plate { width: 80%; filter: drop-shadow(0 34px 40px rgb(0 0 0 / 0.28)) drop-shadow(0 6px 10px rgb(0 0 0 / 0.14)); animation: plate-in 1.3s var(--ease) both, idle 160s linear 1.3s infinite; }
+.pdp__plate { width: 80%; filter: drop-shadow(0 34px 40px rgb(0 0 0 / 0.28)) drop-shadow(0 6px 10px rgb(0 0 0 / 0.14)); animation: idle 160s linear 1s infinite; }
 .pdp__photo-note { margin-top: 12px; font-size: 0.9375rem; font-style: italic; color: var(--muted); text-align: center; }
 .pdp__info { padding-top: clamp(0px, 3vw, 30px); }
 .pdp__name { font-size: clamp(2.6rem, 4.6vw, 4.25rem); }
@@ -819,4 +819,36 @@ html:not([data-ground="white"]) .back,
 
 @media (prefers-reduced-motion: reduce) {
   :is(.btn, .add__btn, .chip, .picker__btn, .orderbar, .door__go):is(:hover, :active) { transform: none; }
+}
+
+
+/* ---------- Smart animate: dish photo and name morph into the dish page ---------- */
+::view-transition { pointer-events: none; }
+::view-transition-group(*) { animation-duration: 0.7s; animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+::view-transition-old(root) { animation: 0.35s ease both vt-fade-out; }
+::view-transition-new(root) { animation: 0.5s ease 0.12s both vt-fade-in; }
+@keyframes vt-fade-out { to { opacity: 0; } }
+@keyframes vt-fade-in { from { opacity: 0; } }
+::view-transition-group(site-header) { animation: none; z-index: 100; }
+::view-transition-old(site-header) { display: none; }
+::view-transition-new(site-header) { animation: none; }
+
+/* ---------- Micro-animations ---------- */
+.reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.8s var(--ease), transform 0.9s var(--ease); }
+.reveal.is-in { opacity: 1; transform: none; }
+.roll { display: inline-grid; overflow: hidden; height: 1.4em; align-items: center; }
+.roll > span { grid-area: 1 / 1; display: block; }
+html { interpolate-size: allow-keywords; }
+.faq__item::details-content { block-size: 0; overflow: hidden; transition: block-size 0.5s var(--ease), content-visibility 0.5s allow-discrete; }
+.faq__item[open]::details-content { block-size: auto; }
+.faq__item p { animation: faq-in 0.6s var(--ease) both; }
+@keyframes faq-in { from { opacity: 0; transform: translateY(-6px); } }
+.card__tile { transition: transform 0.6s var(--ease), box-shadow 0.6s var(--ease); }
+@media (hover: hover) { .card:hover .card__tile { transform: translateY(-4px); box-shadow: 0 18px 30px -18px rgb(0 0 0 / 0.4); } }
+.bag__count { transition: transform 0.4s var(--ease); }
+.link-arrow, .crumbs a, .foot__links a { transition: color 0.25s, background-size 0.5s var(--ease); }
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(*), ::view-transition-new(*), ::view-transition-group(*) { animation-duration: 0s !important; animation-delay: 0s !important; }
+  .reveal { opacity: 1; transform: none; }
 }

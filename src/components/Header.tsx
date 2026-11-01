@@ -39,7 +39,7 @@ export function Header() {
 
   return (
     <>
-      <header className={`top ${hidden ? "top--hidden" : ""} ${scrolled ? "top--scrolled" : ""}`}>
+      <header className={`top ${hidden ? "top--hidden" : ""} ${scrolled ? "top--scrolled" : ""}`} style={{ viewTransitionName: "site-header" }}>
         <Link href="/" className="top__brand" aria-label="Our Family Table, home">
           <Monogram />
           <span className="top__name">Our Family Table</span>

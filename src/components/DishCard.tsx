@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, ViewTransition } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { useCart } from "./CartProvider";
@@ -8,6 +8,7 @@ import { lineKey } from "@/lib/order";
 import { plateSrc, rupee, type Dish } from "@/lib/menu";
 import { Monogram } from "./Ornament";
 import { Minus, Plus } from "./icons";
+import { flyToBag } from "@/lib/fly";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
@@ -25,7 +26,7 @@ export function AddControl({ dish, option, flavour, compact = false }: { dish: D
             key="add"
             type="button"
             className="add__btn"
-            onClick={() => cart.add(dish, { option, flavour })}
+            onClick={(e) => (flyToBag(e.currentTarget), cart.add(dish, { option, flavour }))}
             initial={{ opacity: 0, scale: 0.92 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.92 }}
@@ -47,8 +48,14 @@ export function AddControl({ dish, option, flavour, compact = false }: { dish: D
             <button type="button" onClick={() => cart.setCount(key, n - 1)} aria-label={n <= min ? `Remove ${dish.name}` : `One less ${dish.name}`}>
               <Minus width={16} height={16} />
             </button>
-            <output aria-live="polite" aria-label={`${n} in your order`}>{n}</output>
-            <button type="button" onClick={() => cart.setCount(key, n + 1)} aria-label={`One more ${dish.name}`}>
+            <output aria-live="polite" aria-label={`${n} in your order`} className="roll">
+              <AnimatePresence mode="popLayout" initial={false} custom={n}>
+                <motion.span key={n} initial={{ y: "-90%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: "90%", opacity: 0 }} transition={{ duration: 0.28, ease: EASE }}>
+                  {n}
+                </motion.span>
+              </AnimatePresence>
+            </output>
+            <button type="button" onClick={(e) => (flyToBag(e.currentTarget), cart.setCount(key, n + 1))} aria-label={`One more ${dish.name}`}>
               <Plus width={16} height={16} />
             </button>
           </motion.div>
@@ -78,7 +85,9 @@ export function DishCard({ dish, href }: { dish: Dish; href: string }) {
     <article className="card">
       <Link href={href} className="card__tile" tabIndex={-1} aria-hidden>
         {dish.plate ? (
-          <img src={plateSrc(dish.plate)} alt={`${dish.name}, illustrative photo`} width={900} height={900} loading="lazy" className="card__plate" />
+          <ViewTransition name={`plate-${dish.id}`} share="morph" default="none">
+            <img src={plateSrc(dish.plate)} alt={`${dish.name}, illustrative photo`} width={900} height={900} loading="lazy" className="card__plate" />
+          </ViewTransition>
         ) : (
           <span className="card__empty" aria-hidden>
             <Monogram />
@@ -88,9 +97,11 @@ export function DishCard({ dish, href }: { dish: Dish; href: string }) {
       </Link>
       <div className="card__head">
         <h3 className="card__name">
-          <Link href={href} className="card__link">
-            {dish.name}
-          </Link>
+          <ViewTransition name={`name-${dish.id}`} share="morph" default="none">
+            <Link href={href} className="card__link">
+              {dish.name}
+            </Link>
+          </ViewTransition>
           {dish.note && <span className="card__note"> {dish.note}</span>}
         </h3>
       </div>
