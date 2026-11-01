@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fdips\u002F[dish]","\u002Fnon-veg\u002F[dish]","\u002Fveg\u002F[dish]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
