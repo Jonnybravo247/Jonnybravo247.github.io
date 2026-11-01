@@ -1,0 +1,1 @@
+Share card rendered in headless Chrome by menu-build/review/web/og.js from HTML (Playfair Display, EB Garamond, Jost, Pinyon Script) composited over the AI-generated chicken-biryani plate (see chicken-biryani.txt). No image model used for the card itself.

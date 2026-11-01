@@ -1,0 +1,2393 @@
+{
+  "menus": [
+    {
+      "slug": "non-veg",
+      "label": "Non-Vegetarian Menu",
+      "unit": null,
+      "sections": [
+        {
+          "id": "chicken-starters-and-kebabs",
+          "title": "Chicken Starters & Kebabs",
+          "note": "Freshly prepared with premium ingredients, authentic spices and traditional recipes",
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "non-veg--chicken-shammi-kebab",
+                  "plate": "non-veg--chicken-shammi-kebab",
+                  "name": "Chicken Shammi Kebab",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 350,
+                  "options": null,
+                  "desc": "Soft, flavourful kebabs of minced chicken, lentils and aromatic spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-tikka",
+                  "plate": "non-veg--chicken-tikka",
+                  "name": "Chicken Tikka",
+                  "note": null,
+                  "flavours": [
+                    "Malai",
+                    "Green",
+                    "Red"
+                  ],
+                  "qty": "1 Kg",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "Succulent chicken cubes marinated and grilled in your choice of flavour.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-cheese-foil-kebab",
+                  "plate": "non-veg--chicken-cheese-foil-kebab",
+                  "name": "Chicken Cheese Foil Kebab",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Juicy chicken kebabs infused with creamy cheese and wrapped for flavour.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-shahi-roll",
+                  "plate": "non-veg--chicken-shahi-roll",
+                  "name": "Chicken Shahi Roll",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Seasoned chicken in a delicate coating, fried until golden.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-cutlets",
+                  "plate": "non-veg--chicken-cutlets",
+                  "name": "Chicken Cutlets",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 350,
+                  "options": null,
+                  "desc": "Crispy golden cutlets with a flavourful chicken filling.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-fry",
+                  "plate": "non-veg--chicken-fry",
+                  "name": "Chicken Fry",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1000,
+                  "options": [
+                    {
+                      "label": "With bone",
+                      "price": 1000
+                    },
+                    {
+                      "label": "Boneless",
+                      "price": 1200
+                    }
+                  ],
+                  "desc": "Perfectly seasoned, with a crisp exterior and a juicy centre.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-russian-kebab",
+                  "plate": "non-veg--chicken-russian-kebab",
+                  "name": "Chicken Russian Kebab",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 350,
+                  "options": null,
+                  "desc": "A classic Kolkata favourite of mildly spiced chicken in a crispy coating.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-malai-seekh",
+                  "plate": "kebab-platter",
+                  "name": "Chicken Malai Seekh",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Creamy seekh kebabs with mild spices and rich flavour.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-kebab-pav",
+                  "plate": "non-veg--chicken-kebab-pav",
+                  "name": "Chicken Kebab Pav",
+                  "note": "Bombay Special",
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 350,
+                  "options": null,
+                  "desc": "Mumbai-style chicken kebabs with soft pav, a nostalgic street-food favourite.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-tangdi-kebab",
+                  "plate": "non-veg--chicken-tangdi-kebab",
+                  "name": "Chicken Tangdi Kebab",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 550,
+                  "options": null,
+                  "desc": "Drumsticks marinated in spices and grilled until smoky and tender.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--special-creamy-chicken-tandoori",
+                  "plate": "non-veg--special-creamy-chicken-tandoori",
+                  "name": "Special Creamy Chicken Tandoori",
+                  "note": null,
+                  "flavours": null,
+                  "qty": null,
+                  "price": 600,
+                  "options": [
+                    {
+                      "label": "Half",
+                      "price": 600
+                    },
+                    {
+                      "label": "Full",
+                      "price": 1000
+                    }
+                  ],
+                  "desc": "Tandoori chicken marinated in cream, spices and herbs.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-turkish-seekh-kebab",
+                  "plate": "non-veg--chicken-turkish-seekh-kebab",
+                  "name": "Chicken Turkish Seekh Kebab",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Middle Eastern-inspired seekh kebabs packed with herbs and seasoning.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mutton-and-seafood",
+          "title": "Mutton & Seafood",
+          "note": null,
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": "Mutton Specialties",
+              "note": null,
+              "items": [
+                {
+                  "id": "non-veg--mutton-shammi-kebab",
+                  "plate": "non-veg--mutton-shammi-kebab",
+                  "name": "Mutton Shammi Kebab",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 750,
+                  "options": null,
+                  "desc": "Traditional melt-in-the-mouth kebabs of premium minced mutton.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-chatkara",
+                  "plate": "non-veg--mutton-chatkara",
+                  "name": "Mutton Chatkara",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "250 Gms",
+                  "price": 750,
+                  "options": null,
+                  "desc": "A spicy mutton delicacy bursting with bold traditional flavours.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--special-mutton-chaap",
+                  "plate": "non-veg--special-mutton-chaap",
+                  "name": "Special Mutton Chaap",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 950,
+                  "options": null,
+                  "desc": "Succulent mutton chops in signature spices, grilled to perfection.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-turkish-seekh-kebab",
+                  "plate": "non-veg--mutton-turkish-seekh-kebab",
+                  "name": "Mutton Turkish Seekh Kebab",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 900,
+                  "options": null,
+                  "desc": "Juicy minced mutton seekh kebabs inspired by Turkish flavours.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-cutlets",
+                  "plate": "non-veg--mutton-cutlets",
+                  "name": "Mutton Cutlets",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 750,
+                  "options": null,
+                  "desc": "Crispy golden cutlets with a rich mutton filling.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-kebab-pav",
+                  "plate": "non-veg--mutton-kebab-pav",
+                  "name": "Mutton Kebab Pav",
+                  "note": "Bombay Special",
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 650,
+                  "options": null,
+                  "desc": "Mumbai-style mutton kebabs served with soft pav.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            },
+            {
+              "title": "Seafood Specialties",
+              "note": null,
+              "items": [
+                {
+                  "id": "non-veg--butter-garlic-prawns",
+                  "plate": "non-veg--butter-garlic-prawns",
+                  "name": "Butter Garlic Prawns",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Medium",
+                  "price": 550,
+                  "options": null,
+                  "desc": "Juicy prawns tossed in aromatic garlic butter and herbs.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--amritsari-fish-fry",
+                  "plate": "non-veg--amritsari-fish-fry",
+                  "name": "Amritsari Fish Fry",
+                  "note": "Basa",
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Crispy fish fillets coated in traditional Amritsari spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--fish-tikka",
+                  "plate": "non-veg--fish-tikka",
+                  "name": "Fish Tikka",
+                  "note": "Basa",
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Tender basa marinated in spices and grilled until smoky.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chicken-biryani-and-pulao",
+          "title": "Chicken Biryani & Pulao",
+          "note": null,
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "non-veg--chicken-bombay-biryani",
+                  "plate": "chicken-biryani",
+                  "name": "Chicken Bombay Biryani",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "Fragrant Mumbai-style biryani with tender chicken.",
+                  "serve": "Raita",
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-hyderabadi-dum-biryani",
+                  "plate": "non-veg--chicken-hyderabadi-dum-biryani",
+                  "name": "Chicken Hyderabadi Dum Biryani",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "Dum-cooked with rich spices and succulent chicken.",
+                  "serve": "Mirchi ka Salan",
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-kolkata-biryani",
+                  "plate": "non-veg--chicken-kolkata-biryani",
+                  "name": "Chicken Kolkata Biryani",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1700,
+                  "options": null,
+                  "desc": "Delicate spices, potatoes and subtle aromatic flavours.",
+                  "serve": "Salad & Raita",
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-malai-seekh-biryani",
+                  "plate": "non-veg--chicken-malai-seekh-biryani",
+                  "name": "Chicken Malai Seekh Biryani",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1800,
+                  "options": null,
+                  "desc": "Creamy malai seekh kebabs layered with basmati and mild spices.",
+                  "serve": "Raita",
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-yakhani-pulao",
+                  "plate": "non-veg--chicken-yakhani-pulao",
+                  "name": "Chicken Yakhani Pulao",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Kashmiri-inspired pulao cooked in a flavourful yakhani stock.",
+                  "serve": "Raita",
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-tahari-pulao",
+                  "plate": "non-veg--chicken-tahari-pulao",
+                  "name": "Chicken Tahari Pulao",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "A homestyle spiced rice delicacy with tender chicken.",
+                  "serve": "Raita",
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--akkhi-masoor-chicken-keema-pulao",
+                  "plate": "non-veg--akkhi-masoor-chicken-keema-pulao",
+                  "name": "Akkhi Masoor Chicken Keema Pulao",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Chicken keema, whole masoor lentils and fragrant rice.",
+                  "serve": "Red Chilli & Garlic Chutney",
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-zam-zam-biryani",
+                  "plate": "non-veg--chicken-zam-zam-biryani",
+                  "name": "Chicken Zam Zam Biryani",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 3500,
+                  "options": null,
+                  "desc": "Our signature royal biryani with premium ingredients.",
+                  "serve": "Raita",
+                  "minPieces": null,
+                  "signature": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mutton-biryani-and-pulao",
+          "title": "Mutton Biryani & Pulao",
+          "note": null,
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "non-veg--mutton-bombay-biryani",
+                  "plate": "non-veg--mutton-bombay-biryani",
+                  "name": "Mutton Bombay Biryani",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2800,
+                  "options": null,
+                  "desc": "Fragrant Mumbai-style biryani with tender mutton.",
+                  "serve": "Raita",
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-hyderabadi-dum-biryani",
+                  "plate": "non-veg--mutton-hyderabadi-dum-biryani",
+                  "name": "Mutton Hyderabadi Dum Biryani",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2800,
+                  "options": null,
+                  "desc": "Dum-cooked with rich spices and succulent mutton.",
+                  "serve": "Mirchi ka Salan",
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-kolkata-biryani",
+                  "plate": "non-veg--mutton-kolkata-biryani",
+                  "name": "Mutton Kolkata Biryani",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2700,
+                  "options": null,
+                  "desc": "Delicate spices, potatoes and subtle aromatic flavours.",
+                  "serve": "Salad & Raita",
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-malai-seekh-biryani",
+                  "plate": "non-veg--mutton-malai-seekh-biryani",
+                  "name": "Mutton Malai Seekh Biryani",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 3500,
+                  "options": null,
+                  "desc": "Creamy malai seekh kebabs layered with basmati and mild spices.",
+                  "serve": "Raita",
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-yakhani-pulao",
+                  "plate": "non-veg--mutton-yakhani-pulao",
+                  "name": "Mutton Yakhani Pulao",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2500,
+                  "options": null,
+                  "desc": "Kashmiri-inspired pulao cooked in a flavourful yakhani stock.",
+                  "serve": "Raita",
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-tahari-pulao",
+                  "plate": "non-veg--mutton-tahari-pulao",
+                  "name": "Mutton Tahari Pulao",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2500,
+                  "options": null,
+                  "desc": "A homestyle spiced rice delicacy with tender mutton.",
+                  "serve": "Raita",
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-keema-pulao",
+                  "plate": "non-veg--mutton-keema-pulao",
+                  "name": "Mutton Keema Pulao",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2200,
+                  "options": null,
+                  "desc": "Minced mutton cooked with aromatic spices and basmati.",
+                  "serve": "Raita",
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-kofta-pulao",
+                  "plate": "non-veg--mutton-kofta-pulao",
+                  "name": "Mutton Kofta Pulao",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2500,
+                  "options": null,
+                  "desc": "Tender mutton koftas cooked with fragrant rice.",
+                  "serve": "Raita",
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-zam-zam-biryani",
+                  "plate": "non-veg--mutton-zam-zam-biryani",
+                  "name": "Mutton Zam Zam Biryani",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 4500,
+                  "options": null,
+                  "desc": "Our signature royal biryani with premium ingredients.",
+                  "serve": "Raita",
+                  "minPieces": null,
+                  "signature": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chicken-gravies",
+          "title": "Chicken Gravies",
+          "note": "Served in 1 Kg packs",
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "non-veg--butter-chicken",
+                  "plate": "butter-chicken",
+                  "name": "Butter Chicken",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "Tender chicken in a rich, buttery tomato gravy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-tikka-masala",
+                  "plate": "non-veg--chicken-tikka-masala",
+                  "name": "Chicken Tikka Masala",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "Chargrilled tikka in a creamy masala gravy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--lagan-ka-dum-chicken-curry",
+                  "plate": "non-veg--lagan-ka-dum-chicken-curry",
+                  "name": "Lagan ka Dum Chicken Curry",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "A royal dum-cooked curry in the Hyderabadi tradition.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-malai-seekh-masala",
+                  "plate": "non-veg--chicken-malai-seekh-masala",
+                  "name": "Chicken Malai Seekh Masala",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "Creamy malai seekh kebabs in a rich masala gravy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-dal-gosht",
+                  "plate": "non-veg--chicken-dal-gosht",
+                  "name": "Chicken Dal Gosht",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Tender chicken and lentils slow-cooked with traditional spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-korma-with-potato",
+                  "plate": "non-veg--chicken-korma-with-potato",
+                  "name": "Chicken Korma with Potato",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Chicken and potatoes in a mildly spiced, creamy korma.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-haryali-curry",
+                  "plate": "non-veg--chicken-haryali-curry",
+                  "name": "Chicken Haryali Curry",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "A vibrant green curry of fresh herbs and coriander.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-kosha",
+                  "plate": "non-veg--chicken-kosha",
+                  "name": "Chicken Kosha",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Bengali-style slow-cooked curry with deep, rich flavour.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-keema",
+                  "plate": "non-veg--chicken-keema",
+                  "name": "Chicken Keema",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Minced chicken with onions, tomatoes and fragrant spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-razzala",
+                  "plate": "non-veg--chicken-razzala",
+                  "name": "Chicken Razzala",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "A delicately spiced Mughlai curry enriched with yogurt.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--tomato-chicken",
+                  "plate": "non-veg--tomato-chicken",
+                  "name": "Tomato Chicken",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Tender chicken in a tangy, balanced tomato gravy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-kofta-curry",
+                  "plate": "non-veg--chicken-kofta-curry",
+                  "name": "Chicken Kofta Curry",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Soft chicken koftas in a rich, aromatic gravy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--chicken-kadai-masala",
+                  "plate": "non-veg--chicken-kadai-masala",
+                  "name": "Chicken Kadai Masala",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Chicken with capsicum, onions and bold kadai spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mutton-gravies",
+          "title": "Mutton Gravies",
+          "note": "Served in 1 Kg packs",
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "non-veg--mutton-razzala",
+                  "plate": "non-veg--mutton-razzala",
+                  "name": "Mutton Razzala",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2200,
+                  "options": null,
+                  "desc": "Tender mutton in a luxurious Mughlai yogurt and spice gravy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-keema",
+                  "plate": "non-veg--mutton-keema",
+                  "name": "Mutton Keema",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2100,
+                  "options": null,
+                  "desc": "Finely minced mutton with onions, tomatoes and traditional spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-korma-with-potato",
+                  "plate": "non-veg--mutton-korma-with-potato",
+                  "name": "Mutton Korma with Potato",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2200,
+                  "options": null,
+                  "desc": "Slow-cooked mutton and potatoes in a rich, aromatic korma.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-dal-gosht",
+                  "plate": "non-veg--mutton-dal-gosht",
+                  "name": "Mutton Dal Gosht",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1900,
+                  "options": null,
+                  "desc": "Tender mutton and lentils simmered with fragrant spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-kosha",
+                  "plate": "non-veg--mutton-kosha",
+                  "name": "Mutton Kosha",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2200,
+                  "options": null,
+                  "desc": "A classic Bengali mutton curry, slow-cooked with robust spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--lagan-ka-dum-mutton-curry",
+                  "plate": "non-veg--lagan-ka-dum-mutton-curry",
+                  "name": "Lagan ka Dum Mutton Curry",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2200,
+                  "options": null,
+                  "desc": "A royal Hyderabadi dum-cooked curry with authentic flavour.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-kofta-curry",
+                  "plate": "non-veg--mutton-kofta-curry",
+                  "name": "Mutton Kofta Curry",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2200,
+                  "options": null,
+                  "desc": "Tender mutton koftas in a rich, aromatic gravy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "our-special-mutton-delicacies",
+          "title": "Our Special Mutton Delicacies",
+          "note": "Slow-cooked, the way our family has always made them",
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "non-veg--mutton-dum-pukht",
+                  "plate": "non-veg--mutton-dum-pukht",
+                  "name": "Mutton Dum Pukht",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2500,
+                  "options": null,
+                  "desc": "Slow-cooked mutton infused with aromatic spices and traditional flavours. Tender, juicy and rich in taste, prepared with the goodness of dum cooking.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--mutton-khichda",
+                  "plate": "non-veg--mutton-khichda",
+                  "name": "Mutton Khichda",
+                  "note": "Haleem",
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2200,
+                  "options": null,
+                  "desc": "A hearty, wholesome delicacy of tender mutton, lentils and aromatic spices, slow-cooked to a rich, creamy consistency.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "non-veg--special-mutton-nalli-nihari",
+                  "plate": "mutton-nihari",
+                  "name": "Special Mutton Nalli Nihari",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 2500,
+                  "options": null,
+                  "desc": "Succulent mutton shanks slow-cooked in a rich, flavourful gravy with traditional spices, for a melt-in-the-mouth experience.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rice-selections",
+          "title": "Rice Selections",
+          "note": "Perfect accompaniments to our gravies and kebabs",
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "rice--jeera-rice",
+                  "plate": "rice--jeera-rice",
+                  "name": "Jeera Rice",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 650,
+                  "options": null,
+                  "desc": "Fluffy basmati delicately tempered with cumin seeds.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "rice--biryani-plain-rice",
+                  "plate": "rice--biryani-plain-rice",
+                  "name": "Biryani Plain Rice",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 750,
+                  "options": null,
+                  "desc": "Fragrant long-grain basmati, prepared in the biryani style.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "rice--coconut-rice",
+                  "plate": "rice--coconut-rice",
+                  "name": "Coconut Rice",
+                  "note": "Bengali Special",
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 800,
+                  "options": null,
+                  "desc": "Aromatic rice with fresh coconut milk, dry fruits and subtle spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "desserts",
+          "title": "Desserts",
+          "note": "Handcrafted sweet indulgences, made at home with premium ingredients",
+          "foot": "Per-piece desserts have a minimum order of 6 pieces.",
+          "desserts": true,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "desserts--special-kesar-pista-firni",
+                  "plate": "desserts--special-kesar-pista-firni",
+                  "name": "Special Kesar Pista Firni",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Per piece",
+                  "price": 120,
+                  "options": null,
+                  "desc": "A rich and creamy traditional firni infused with saffron and pistachios.",
+                  "serve": null,
+                  "minPieces": 6,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--saffron-arabic-pudding-with-rose-cream",
+                  "plate": "desserts--saffron-arabic-pudding-with-rose-cream",
+                  "name": "Saffron Arabic Pudding with Rose Cream",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Per piece",
+                  "price": 150,
+                  "options": null,
+                  "desc": "A luxurious Middle Eastern dessert layered with fragrant rose cream and saffron notes.",
+                  "serve": null,
+                  "minPieces": 6,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--pistachio-cream-kunafa",
+                  "plate": "pistachio-kunafa",
+                  "name": "Pistachio Cream Kunafa",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Per piece",
+                  "price": 180,
+                  "options": null,
+                  "desc": "Crispy golden kunafa filled with luscious pistachio cream, the perfect balance of texture and flavour.",
+                  "serve": null,
+                  "minPieces": 6,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--special-badam-kheer",
+                  "plate": "desserts--special-badam-kheer",
+                  "name": "Special Badam Kheer",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Per piece",
+                  "price": 120,
+                  "options": null,
+                  "desc": "A creamy almond-rich kheer slow-cooked to perfection with aromatic flavours.",
+                  "serve": null,
+                  "minPieces": 6,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--shahi-tukda-with-rabdi",
+                  "plate": "desserts--shahi-tukda-with-rabdi",
+                  "name": "Shahi Tukda with Rabdi",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Per piece",
+                  "price": 120,
+                  "options": null,
+                  "desc": "Golden-fried bread soaked in rich rabdi, garnished with nuts and saffron.",
+                  "serve": null,
+                  "minPieces": 6,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--special-shahi-sheer-khurma",
+                  "plate": "desserts--special-shahi-sheer-khurma",
+                  "name": "Special Shahi Sheer Khurma",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Litre",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "A festive delicacy of vermicelli, milk, dates, nuts and fragrant spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--dry-fruit-rabdi",
+                  "plate": "desserts--dry-fruit-rabdi",
+                  "name": "Dry Fruit Rabdi",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "Traditional thickened milk dessert layered with premium dry fruits.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--zaffrani-zarda",
+                  "plate": "desserts--zaffrani-zarda",
+                  "name": "Zaffrani Zarda",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Fragrant saffron-infused sweet rice, garnished with nuts and dry fruits.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "veg",
+      "label": "Vegetarian Menu",
+      "unit": null,
+      "sections": [
+        {
+          "id": "vegetarian-starters",
+          "title": "Vegetarian Starters",
+          "note": "Freshly prepared with premium ingredients and authentic spices",
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "veg--paneer-tikka",
+                  "plate": "veg--paneer-tikka",
+                  "name": "Paneer Tikka",
+                  "note": null,
+                  "flavours": [
+                    "Malai",
+                    "Green",
+                    "Red"
+                  ],
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Soft paneer marinated and grilled in your choice of flavour.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--corn-cheese-balls",
+                  "plate": "veg--corn-cheese-balls",
+                  "name": "Corn Cheese Balls",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 350,
+                  "options": null,
+                  "desc": "Golden-fried bites of sweet corn and molten cheese.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--soya-chaap",
+                  "plate": "veg--soya-chaap",
+                  "name": "Soya Chaap",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 350,
+                  "options": null,
+                  "desc": "Protein-rich soya chaap marinated and cooked to perfection.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--special-cheese-stuffed-mushrooms",
+                  "plate": "veg--special-cheese-stuffed-mushrooms",
+                  "name": "Special Cheese Stuffed Mushrooms",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Mushrooms filled with creamy cheese, baked until golden.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--spring-rolls",
+                  "plate": "veg--spring-rolls",
+                  "name": "Spring Rolls",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 350,
+                  "options": null,
+                  "desc": "Crispy rolls of seasoned vegetables with Asian flavours.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--soya-cutlets",
+                  "plate": "veg--soya-cutlets",
+                  "name": "Soya Cutlets",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 350,
+                  "options": null,
+                  "desc": "Crispy cutlets with a flavourful soya filling.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--kolkata-vegetable-chop",
+                  "plate": "veg--kolkata-vegetable-chop",
+                  "name": "Kolkata Vegetable Chop",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "6 Pcs",
+                  "price": 350,
+                  "options": null,
+                  "desc": "A beloved Bengali snack with a crunchy coating.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--stir-fried-mixed-vegetables",
+                  "plate": "veg--stir-fried-mixed-vegetables",
+                  "name": "Stir-Fried Mixed Vegetables",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 800,
+                  "options": null,
+                  "desc": "A colourful medley of vegetables in light seasoning.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--soya-keema",
+                  "plate": "veg--soya-keema",
+                  "name": "Soya Keema",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 800,
+                  "options": null,
+                  "desc": "Minced soya with onions, herbs and aromatic spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--garlic-cheesy-mashed-potato",
+                  "plate": "veg--garlic-cheesy-mashed-potato",
+                  "name": "Garlic Cheesy Mashed Potato",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Portion",
+                  "price": 350,
+                  "options": null,
+                  "desc": "Creamy mashed potatoes with garlic and cheese.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "veg-biryani-and-pulao",
+          "title": "Veg Biryani & Pulao",
+          "note": "Every biryani and pulao is served with raita",
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "veg--paneer-tikka-biryani",
+                  "plate": "paneer-tikka-biryani",
+                  "name": "Paneer Tikka Biryani",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1600,
+                  "options": null,
+                  "desc": "Soft paneer tikka layered with fragrant basmati and aromatic spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--mixed-vegetable-biryani",
+                  "plate": "veg--mixed-vegetable-biryani",
+                  "name": "Mixed Vegetable Biryani",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1300,
+                  "options": null,
+                  "desc": "Fresh vegetables layered with fragrant rice and traditional spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--soya-chaap-biryani",
+                  "plate": "veg--soya-chaap-biryani",
+                  "name": "Soya Chaap Biryani",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Soya chaap cooked with aromatic rice and biryani spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--soya-chunk-pulao",
+                  "plate": "veg--soya-chunk-pulao",
+                  "name": "Soya Chunk Pulao",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1100,
+                  "options": null,
+                  "desc": "Protein-rich soya chunks with fragrant rice and herbs.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--soya-keema-pulao",
+                  "plate": "veg--soya-keema-pulao",
+                  "name": "Soya Keema Pulao",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1100,
+                  "options": null,
+                  "desc": "Minced soya cooked with aromatic spices and basmati.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--mixed-vegetable-pulao",
+                  "plate": "veg--mixed-vegetable-pulao",
+                  "name": "Mixed Vegetable Pulao",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1100,
+                  "options": null,
+                  "desc": "Seasonal vegetables with aromatic basmati and mild spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rice-selections",
+          "title": "Rice Selections",
+          "note": "Perfect accompaniments to our gravies and starters",
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "rice--jeera-rice",
+                  "plate": "rice--jeera-rice",
+                  "name": "Jeera Rice",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 650,
+                  "options": null,
+                  "desc": "Fluffy basmati delicately tempered with cumin seeds.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "rice--biryani-plain-rice",
+                  "plate": "rice--biryani-plain-rice",
+                  "name": "Biryani Plain Rice",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 750,
+                  "options": null,
+                  "desc": "Fragrant long-grain basmati, prepared in the biryani style.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "rice--coconut-rice",
+                  "plate": "rice--coconut-rice",
+                  "name": "Coconut Rice",
+                  "note": "Bengali Special",
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 800,
+                  "options": null,
+                  "desc": "Aromatic rice with fresh coconut milk, dry fruits and subtle spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "veg-gravies",
+          "title": "Veg Gravies",
+          "note": "Served in 1 Kg packs",
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": "Paneer & Kofta",
+              "note": null,
+              "items": [
+                {
+                  "id": "veg--paneer-butter-masala",
+                  "plate": "paneer-butter-masala",
+                  "name": "Paneer Butter Masala",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1400,
+                  "options": null,
+                  "desc": "Soft paneer in a rich, creamy tomato gravy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--kadai-paneer",
+                  "plate": "veg--kadai-paneer",
+                  "name": "Kadai Paneer",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1400,
+                  "options": null,
+                  "desc": "Paneer, capsicum and onions in kadai masala.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--shahi-paneer",
+                  "plate": "veg--shahi-paneer",
+                  "name": "Shahi Paneer",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "A royal Mughlai curry with cream, nuts and mild spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--matar-paneer",
+                  "plate": "veg--matar-paneer",
+                  "name": "Matar Paneer",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1300,
+                  "options": null,
+                  "desc": "Green peas and paneer in a North Indian gravy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--palak-paneer",
+                  "plate": "veg--palak-paneer",
+                  "name": "Palak Paneer",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1400,
+                  "options": null,
+                  "desc": "Fresh paneer in a smooth spinach gravy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--malai-kofta",
+                  "plate": "veg--malai-kofta",
+                  "name": "Malai Kofta",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "Vegetable and paneer dumplings in a rich, creamy gravy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--paneer-kolhapuri",
+                  "plate": "veg--paneer-kolhapuri",
+                  "name": "Paneer Kolhapuri",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "Paneer and vegetables in a spicy Maharashtrian gravy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dals-and-home-classics",
+          "title": "Dals & Home Classics",
+          "note": "Served in 1 Kg packs",
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "veg--dal-makhani",
+                  "plate": "dal-makhani",
+                  "name": "Dal Makhani",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Slow-cooked black lentils finished with butter and cream.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--mix-vegetable-masala",
+                  "plate": "veg--mix-vegetable-masala",
+                  "name": "Mix Vegetable Masala",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Seasonal vegetables in a mildly spiced onion-tomato gravy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--dal-tadka",
+                  "plate": "veg--dal-tadka",
+                  "name": "Dal Tadka",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 900,
+                  "options": null,
+                  "desc": "Yellow lentils tempered with garlic, cumin and spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--chole-masala",
+                  "plate": "veg--chole-masala",
+                  "name": "Chole Masala",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 900,
+                  "options": null,
+                  "desc": "Chickpeas simmered in a North Indian spiced gravy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--rajma-masala",
+                  "plate": "veg--rajma-masala",
+                  "name": "Rajma Masala",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 900,
+                  "options": null,
+                  "desc": "Red kidney beans in a rich tomato-onion gravy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "veg--chana-masala",
+                  "plate": "veg--chana-masala",
+                  "name": "Chana Masala",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 900,
+                  "options": null,
+                  "desc": "A hearty chickpea curry with aromatic spices and herbs.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "desserts",
+          "title": "Desserts",
+          "note": "Handcrafted sweet indulgences, made at home with premium ingredients",
+          "foot": "Per-piece desserts have a minimum order of 6 pieces.",
+          "desserts": true,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "desserts--special-kesar-pista-firni",
+                  "plate": "desserts--special-kesar-pista-firni",
+                  "name": "Special Kesar Pista Firni",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Per piece",
+                  "price": 120,
+                  "options": null,
+                  "desc": "A rich and creamy traditional firni infused with saffron and pistachios.",
+                  "serve": null,
+                  "minPieces": 6,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--saffron-arabic-pudding-with-rose-cream",
+                  "plate": "desserts--saffron-arabic-pudding-with-rose-cream",
+                  "name": "Saffron Arabic Pudding with Rose Cream",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Per piece",
+                  "price": 150,
+                  "options": null,
+                  "desc": "A luxurious Middle Eastern dessert layered with fragrant rose cream and saffron notes.",
+                  "serve": null,
+                  "minPieces": 6,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--pistachio-cream-kunafa",
+                  "plate": "pistachio-kunafa",
+                  "name": "Pistachio Cream Kunafa",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Per piece",
+                  "price": 180,
+                  "options": null,
+                  "desc": "Crispy golden kunafa filled with luscious pistachio cream, the perfect balance of texture and flavour.",
+                  "serve": null,
+                  "minPieces": 6,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--special-badam-kheer",
+                  "plate": "desserts--special-badam-kheer",
+                  "name": "Special Badam Kheer",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Per piece",
+                  "price": 120,
+                  "options": null,
+                  "desc": "A creamy almond-rich kheer slow-cooked to perfection with aromatic flavours.",
+                  "serve": null,
+                  "minPieces": 6,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--shahi-tukda-with-rabdi",
+                  "plate": "desserts--shahi-tukda-with-rabdi",
+                  "name": "Shahi Tukda with Rabdi",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Per piece",
+                  "price": 120,
+                  "options": null,
+                  "desc": "Golden-fried bread soaked in rich rabdi, garnished with nuts and saffron.",
+                  "serve": null,
+                  "minPieces": 6,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--special-shahi-sheer-khurma",
+                  "plate": "desserts--special-shahi-sheer-khurma",
+                  "name": "Special Shahi Sheer Khurma",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Litre",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "A festive delicacy of vermicelli, milk, dates, nuts and fragrant spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--dry-fruit-rabdi",
+                  "plate": "desserts--dry-fruit-rabdi",
+                  "name": "Dry Fruit Rabdi",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "Traditional thickened milk dessert layered with premium dry fruits.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--zaffrani-zarda",
+                  "plate": "desserts--zaffrani-zarda",
+                  "name": "Zaffrani Zarda",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Fragrant saffron-infused sweet rice, garnished with nuts and dry fruits.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dips",
+      "label": "The Deli Edit",
+      "unit": "Every jar is 200 gm",
+      "sections": [
+        {
+          "id": "signature-hummus",
+          "title": "Signature Hummus",
+          "note": "Silky, slow-blended and made fresh to order",
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "dips--classic-hummus",
+                  "plate": "classic-hummus",
+                  "name": "Classic Hummus",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 250,
+                  "options": null,
+                  "desc": "A smooth, velvety blend of chickpeas, tahini, lemon and extra virgin olive oil.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--roasted-jalapeno-and-beetroot-hummus",
+                  "plate": "dips--roasted-jalapeno-and-beetroot-hummus",
+                  "name": "Roasted Jalapeño & Beetroot Hummus",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 350,
+                  "options": null,
+                  "desc": "Earthy roasted beetroot meets the gentle heat of roasted jalapeños.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--basil-and-chilli-hummus",
+                  "plate": "dips--basil-and-chilli-hummus",
+                  "name": "Basil & Chilli Hummus",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 350,
+                  "options": null,
+                  "desc": "Fresh basil, chickpeas, tahini and green chilli; refreshing yet spicy.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--sumac-hummus",
+                  "plate": "dips--sumac-hummus",
+                  "name": "Sumac Hummus",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 350,
+                  "options": null,
+                  "desc": "Classic hummus lifted with tangy sumac, lemon and a Mediterranean finish.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--roasted-garlic-hummus",
+                  "plate": "dips--roasted-garlic-hummus",
+                  "name": "Roasted Garlic Hummus",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 350,
+                  "options": null,
+                  "desc": "Sweet, mellow roasted garlic in silky hummus; rich and savoury.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--smoked-paprika-hummus",
+                  "plate": "dips--smoked-paprika-hummus",
+                  "name": "Smoked Paprika Hummus",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 350,
+                  "options": null,
+                  "desc": "Creamy chickpeas finished with smoky paprika, olive oil and gentle warmth.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "more-flavours-to-explore",
+          "title": "More Flavours to Explore",
+          "note": null,
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "dips--roasted-red-pepper-hummus",
+                  "plate": "dips--roasted-red-pepper-hummus",
+                  "name": "Roasted Red Pepper Hummus",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Sweet roasted peppers blended with tahini and chickpeas.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--caramelised-onion-hummus",
+                  "plate": "dips--caramelised-onion-hummus",
+                  "name": "Caramelised Onion Hummus",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Silky hummus topped with slow-cooked caramelised onions.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--peri-peri-hummus",
+                  "plate": "dips--peri-peri-hummus",
+                  "name": "Peri Peri Hummus",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Bold, tangy and spicy, with a fiery peri peri kick.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--pesto-hummus",
+                  "plate": "dips--pesto-hummus",
+                  "name": "Pesto Hummus",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Classic hummus meets fragrant basil pesto.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--harissa-hummus",
+                  "plate": "dips--harissa-hummus",
+                  "name": "Harissa Hummus",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "North African-inspired, with smoky chilli, garlic and aromatic spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--truffle-and-edamame-hummus",
+                  "plate": "dips--truffle-and-edamame-hummus",
+                  "name": "Truffle & Edamame Hummus",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 600,
+                  "options": null,
+                  "desc": "An indulgent, earthy edamame hummus with a delicate truffle aroma.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": true
+                }
+              ]
+            },
+            {
+              "title": "Mexican Favourites",
+              "note": null,
+              "items": [
+                {
+                  "id": "dips--classic-guacamole",
+                  "plate": "dips--classic-guacamole",
+                  "name": "Classic Guacamole",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Fresh avocado, lime, coriander, onion and jalapeños.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--chipotle-cream-dip",
+                  "plate": "dips--chipotle-cream-dip",
+                  "name": "Chipotle Cream Dip",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Smoky chipotle chilli in a creamy, tangy dip.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "middle-eastern-and-mediterranean",
+          "title": "Middle Eastern & Mediterranean",
+          "note": null,
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "dips--muhammara",
+                  "plate": "muhammara",
+                  "name": "Muhammara",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Roasted red peppers, walnuts, pomegranate molasses and aromatic spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--tzatziki",
+                  "plate": "dips--tzatziki",
+                  "name": "Tzatziki",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 350,
+                  "options": null,
+                  "desc": "Greek yoghurt, cucumber, garlic, dill and extra virgin olive oil.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--haydari",
+                  "plate": "dips--haydari",
+                  "name": "Haydari",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Turkish strained yoghurt with garlic, mint and fresh herbs.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--baba-ganoush",
+                  "plate": "dips--baba-ganoush",
+                  "name": "Baba Ganoush",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Smoky roasted aubergine with tahini, lemon and garlic.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "european-signatures",
+          "title": "European Signatures",
+          "note": null,
+          "foot": null,
+          "desserts": false,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "dips--whipped-cream-cheese",
+                  "plate": "dips--whipped-cream-cheese",
+                  "name": "Whipped Cream Cheese",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Creamy whipped cream cheese with olive oil, herbs and cracked pepper.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--whipped-feta",
+                  "plate": "whipped-feta",
+                  "name": "Whipped Feta",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 450,
+                  "options": null,
+                  "desc": "Smooth whipped feta with lemon, olive oil and herbs.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--basil-pesto",
+                  "plate": "dips--basil-pesto",
+                  "name": "Basil Pesto",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Fresh basil, parmesan, pine nuts, garlic and olive oil.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--french-onion-dip",
+                  "plate": "dips--french-onion-dip",
+                  "name": "French Onion Dip",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Slow-caramelised onions folded into a rich, creamy base.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--romesco",
+                  "plate": "dips--romesco",
+                  "name": "Romesco",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Spanish roasted peppers, tomatoes, almonds and smoked paprika.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--tirokafteri",
+                  "plate": "dips--tirokafteri",
+                  "name": "Tirokafteri",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Greek spicy feta dip with roasted peppers and chilli.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "dips--ajvar",
+                  "plate": "dips--ajvar",
+                  "name": "Ajvar",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "200 gm jar",
+                  "price": 400,
+                  "options": null,
+                  "desc": "Balkan roasted red pepper and aubergine spread.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "desserts",
+          "title": "Desserts",
+          "note": "Handcrafted sweet indulgences, made at home with premium ingredients",
+          "foot": "Per-piece desserts have a minimum order of 6 pieces.",
+          "desserts": true,
+          "groups": [
+            {
+              "title": null,
+              "note": null,
+              "items": [
+                {
+                  "id": "desserts--special-kesar-pista-firni",
+                  "plate": "desserts--special-kesar-pista-firni",
+                  "name": "Special Kesar Pista Firni",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Per piece",
+                  "price": 120,
+                  "options": null,
+                  "desc": "A rich and creamy traditional firni infused with saffron and pistachios.",
+                  "serve": null,
+                  "minPieces": 6,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--saffron-arabic-pudding-with-rose-cream",
+                  "plate": "desserts--saffron-arabic-pudding-with-rose-cream",
+                  "name": "Saffron Arabic Pudding with Rose Cream",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Per piece",
+                  "price": 150,
+                  "options": null,
+                  "desc": "A luxurious Middle Eastern dessert layered with fragrant rose cream and saffron notes.",
+                  "serve": null,
+                  "minPieces": 6,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--pistachio-cream-kunafa",
+                  "plate": "pistachio-kunafa",
+                  "name": "Pistachio Cream Kunafa",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Per piece",
+                  "price": 180,
+                  "options": null,
+                  "desc": "Crispy golden kunafa filled with luscious pistachio cream, the perfect balance of texture and flavour.",
+                  "serve": null,
+                  "minPieces": 6,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--special-badam-kheer",
+                  "plate": "desserts--special-badam-kheer",
+                  "name": "Special Badam Kheer",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Per piece",
+                  "price": 120,
+                  "options": null,
+                  "desc": "A creamy almond-rich kheer slow-cooked to perfection with aromatic flavours.",
+                  "serve": null,
+                  "minPieces": 6,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--shahi-tukda-with-rabdi",
+                  "plate": "desserts--shahi-tukda-with-rabdi",
+                  "name": "Shahi Tukda with Rabdi",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "Per piece",
+                  "price": 120,
+                  "options": null,
+                  "desc": "Golden-fried bread soaked in rich rabdi, garnished with nuts and saffron.",
+                  "serve": null,
+                  "minPieces": 6,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--special-shahi-sheer-khurma",
+                  "plate": "desserts--special-shahi-sheer-khurma",
+                  "name": "Special Shahi Sheer Khurma",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Litre",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "A festive delicacy of vermicelli, milk, dates, nuts and fragrant spices.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--dry-fruit-rabdi",
+                  "plate": "desserts--dry-fruit-rabdi",
+                  "name": "Dry Fruit Rabdi",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1500,
+                  "options": null,
+                  "desc": "Traditional thickened milk dessert layered with premium dry fruits.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                },
+                {
+                  "id": "desserts--zaffrani-zarda",
+                  "plate": "desserts--zaffrani-zarda",
+                  "name": "Zaffrani Zarda",
+                  "note": null,
+                  "flavours": null,
+                  "qty": "1 Kg",
+                  "price": 1200,
+                  "options": null,
+                  "desc": "Fragrant saffron-infused sweet rice, garnished with nuts and dry fruits.",
+                  "serve": null,
+                  "minPieces": null,
+                  "signature": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
