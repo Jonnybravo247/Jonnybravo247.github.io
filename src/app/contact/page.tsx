@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { share } from "@/lib/og";
 import { EnquiryForm } from "@/components/EnquiryForm";
 import { JsonLd, breadcrumbs } from "@/components/JsonLd";
 import { Monogram, Rule } from "@/components/Ornament";
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Order home-cooked food in Mumbai on WhatsApp with Saniya, 87790 36821. Regular orders 1 day ahead, bulk orders 3 days ahead. Delivery across Mumbai, or pickup by Porter or WeFast.",
   alternates: { canonical: "/contact/" },
-  openGraph: { url: "/contact/" },
+  ...share("/contact/", "/og/contact.jpg", "Talk to Saniya, Our Family Table"),
 };
 
 export default function Contact() {

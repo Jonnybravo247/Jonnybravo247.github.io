@@ -17,7 +17,7 @@ export const kitchenSchema = () => ({
   description: DESCRIPTION,
   url: `${SITE_URL}/`,
   telephone: PHONE_E164,
-  image: `${SITE_URL}/og.jpg`,
+  image: `${SITE_URL}/og/home.jpg`,
   servesCuisine: ["Indian", "Mughlai", "Hyderabadi", "Bengali", "Middle Eastern", "Mediterranean"],
   priceRange: "₹₹",
   currenciesAccepted: "INR",

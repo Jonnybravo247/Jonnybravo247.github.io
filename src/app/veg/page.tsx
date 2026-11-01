@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { share } from "@/lib/og";
 import { MenuPage } from "@/components/MenuPage";
 import { JsonLd, breadcrumbs } from "@/components/JsonLd";
 
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Order home-cooked vegetarian food in Mumbai: paneer tikka, paneer biryani, malai kofta, dal makhani and party starters, by the kilo. Made to order by Sabrina & Saniya. Order on WhatsApp.",
   alternates: { canonical: "/veg/" },
-  openGraph: { url: "/veg/" },
+  ...share("/veg/", "/og/veg.jpg", "The Vegetarian Collection, Our Family Table"),
 };
 
 export default function Page() {

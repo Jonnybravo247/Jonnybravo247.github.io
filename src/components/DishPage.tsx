@@ -10,6 +10,7 @@ import { Arrow, Chevron } from "./icons";
 import { JsonLd, breadcrumbs } from "./JsonLd";
 import { MENU_META, canonicalMenu, dishPath, dishSlug, findEntry, menuEntries, plateSrc, rupee, type MenuSlug } from "@/lib/menu";
 import { BRAND, CITY, CLIENTS_SERVED, LEAD_DAYS, SITE_URL } from "@/lib/site";
+import { share } from "@/lib/og";
 
 export const dishParams = (slug: MenuSlug) => menuEntries(slug).map((e) => ({ dish: dishSlug(e.dish.id) }));
 
@@ -23,7 +24,7 @@ export function dishMetadata(slug: MenuSlug, dish: string): Metadata {
     title: `${d.name}${pack}, ${rupee(d.price)}`,
     description: `${d.desc} Home-cooked to order by Sabrina & Saniya in ${CITY}. ${rupee(d.price)}${pack}. Order on WhatsApp, ${LEAD_DAYS.regular} day ahead.`,
     alternates: { canonical: canon },
-    openGraph: { url: canon, images: d.plate ? [{ url: plateSrc(d.plate), width: 900, height: 900, alt: d.name }] : undefined },
+    ...share(canon, `/og/dish/${d.id}.jpg`, `${d.name}, Our Family Table`),
   };
 }
 
