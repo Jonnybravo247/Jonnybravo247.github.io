@@ -2,6 +2,8 @@ import Link from "next/link";
 import { Monogram, Rule } from "./Ornament";
 import { Arrow, WhatsApp } from "./icons";
 import { MENU_META, plateSrc, type MenuSlug } from "@/lib/menu";
+import { SearchButton } from "./SearchPanel";
+import { INDEX } from "@/lib/search";
 import { FAQ } from "@/lib/faq";
 import { TESTIMONIALS } from "@/data/testimonials";
 import { CLIENTS_SERVED, LEAD_DAYS, WHATSAPP_NUMBER } from "@/lib/site";
@@ -79,7 +81,10 @@ export function MenuDoors() {
         <h2 id="doors-title" className="display sec-head__title">
           Choose your <em>menu</em>
         </h2>
-        <p className="sec-head__lead">Every menu includes our handmade desserts.</p>
+        <div className="doors__side">
+          <p className="sec-head__lead">Every menu includes our handmade desserts.</p>
+          <SearchButton className="btn btn--line doors__search" label={`Search ${INDEX.length} dishes`} />
+        </div>
       </div>
       <div className="doors__row">
         {doors.map((door) => {

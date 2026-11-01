@@ -72,3 +72,9 @@ export const Alert = (p: P) => (
     <path d="M12 7.5v5.5M12 16.5v.01" />
   </svg>
 );
+export const Search = (p: P) => (
+  <svg {...base(p)}>
+    <circle cx="11" cy="11" r="6.5" />
+    <path d="M16 16l4.5 4.5" />
+  </svg>
+);

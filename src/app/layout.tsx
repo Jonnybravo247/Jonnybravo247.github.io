@@ -9,6 +9,7 @@ import { SmoothScroll } from "@/components/SmoothScroll";
 import { JsonLd, kitchenSchema } from "@/components/JsonLd";
 import { ColorBall } from "@/components/ColorBall";
 import { Reveal } from "@/components/Reveal";
+import { SearchPanel } from "@/components/SearchPanel";
 import { GROUND_BOOT } from "@/lib/grounds";
 import { BRAND, DESCRIPTION, SITE_URL } from "@/lib/site";
 import "./globals.css";
@@ -74,6 +75,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <main id="main">{children}</main>
           <Footer />
           <CartDrawer />
+          <SearchPanel />
         </CartProvider>
         <GroundController />
         <ColorBall />

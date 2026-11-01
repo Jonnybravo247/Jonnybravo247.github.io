@@ -9,11 +9,12 @@ import { plateSrc, rupee, type Dish } from "@/lib/menu";
 import { Monogram } from "./Ornament";
 import { Minus, Plus } from "./icons";
 import { flyToBag } from "@/lib/fly";
+import { norm } from "@/lib/search";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
 // Add button that becomes a stepper once the dish is in the order.
-export function AddControl({ dish, option, flavour, compact = false }: { dish: Dish; option?: string | null; flavour?: string | null; compact?: boolean }) {
+export function AddControl({ dish, option, flavour, compact = false, label = "Add" }: { dish: Dish; option?: string | null; flavour?: string | null; compact?: boolean; label?: string }) {
   const cart = useCart();
   const key = lineKey(dish.id, option ?? null, flavour ?? null);
   const n = cart.countOf(key);
@@ -33,7 +34,7 @@ export function AddControl({ dish, option, flavour, compact = false }: { dish: D
             transition={{ duration: 0.25, ease: EASE }}
           >
             <Plus width={16} height={16} />
-            <span>Add{dish.minPieces ? ` ${dish.minPieces}` : ""}</span>
+            <span>{label}{dish.minPieces ? ` (${dish.minPieces})` : ""}</span>
             <span className="sr">{dish.name}</span>
           </motion.button>
         ) : (
@@ -82,7 +83,7 @@ export function DishCard({ dish, href }: { dish: Dish; href: string }) {
   const [flavour, setFlavour] = useState(dish.flavours?.[0] ?? null);
   const price = option ? dish.options!.find((o) => o.label === option)!.price : dish.price;
   return (
-    <article className="card">
+    <article className="card" data-text={norm([dish.name, dish.note, dish.flavours?.join(" "), dish.desc, dish.serve].filter(Boolean).join(" "))}>
       <Link href={href} className="card__tile" tabIndex={-1} aria-hidden>
         {dish.plate ? (
           <ViewTransition name={`plate-${dish.id}`} share="morph" default="none">

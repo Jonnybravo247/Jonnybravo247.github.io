@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Monogram, Rule } from "@/components/Ornament";
+import { SearchButton } from "@/components/SearchPanel";
 
 export default function NotFound() {
   return (
@@ -8,6 +9,7 @@ export default function NotFound() {
       <h1 className="display">This plate is empty</h1>
       <Rule />
       <p>The page you were looking for is not on the table. The menus are a tap away.</p>
+      <SearchButton className="btn btn--solid lost__search" label="Search dishes" />
       <p className="lost__links">
         <Link href="/non-veg/">Non-Veg</Link>
         <Link href="/veg/">Veg</Link>

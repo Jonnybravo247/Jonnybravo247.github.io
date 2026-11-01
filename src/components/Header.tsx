@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { useCart } from "./CartProvider";
 import { Monogram } from "./Ornament";
-import { Bag } from "./icons";
+import { Bag, Search as SearchIcon } from "./icons";
 import { rupee } from "@/lib/menu";
 
 const NAV = [
@@ -55,6 +55,11 @@ export function Header() {
             );
           })}
         </nav>
+        <div className="top__tools">
+        <button className="find" onClick={() => window.dispatchEvent(new CustomEvent("search:open", { detail: "" }))} aria-label="Search dishes" aria-keyshortcuts="Control+K /">
+          <SearchIcon width={21} height={21} />
+          <span className="find__label">Search</span>
+        </button>
         <button className="bag" onClick={() => cart.setOpen(true)} aria-label={`Your order, ${cart.count} item${cart.count === 1 ? "" : "s"}`}>
           <motion.span key={cart.pulse} className="bag__icon" animate={cart.pulse ? { scale: [1, 1.22, 1] } : undefined} transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}>
             <Bag width={22} height={22} />
@@ -68,6 +73,7 @@ export function Header() {
             )}
           </AnimatePresence>
         </button>
+        </div>
       </header>
 
       {/* Phones: the order stays one thumb away once something is in it. */}

@@ -1,4 +1,5 @@
 import { CategoryNav } from "./CategoryNav";
+import { MenuFilter } from "./MenuFilter";
 import { DishCard } from "./DishCard";
 import { DietMark, Rule } from "./Ornament";
 import { Download } from "./icons";
@@ -64,6 +65,7 @@ export function MenuPage({ slug }: { slug: MenuSlug }) {
           }))}
         />
         <div className="mbody__main">
+          <MenuFilter menuName={meta.short} total={menu.sections.reduce((n, s) => n + s.groups.reduce((m, g) => m + g.items.length, 0), 0)} />
           {menu.sections.map((s) => (
             <section
               key={s.id}

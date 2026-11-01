@@ -45,7 +45,7 @@ export function DishBuy({ dish }: { dish: Dish }) {
       {dish.flavours && <Choice legend="Flavour" values={dish.flavours} value={flavour!} onChange={setFlavour} />}
       {dish.options && <Choice legend="Size" values={dish.options.map((o) => o.label)} value={option!} onChange={setOption} />}
       <div className="pdp__actions">
-        <AddControl dish={dish} option={option} flavour={flavour} />
+        <AddControl dish={dish} option={option} flavour={flavour} label="Add to order" />
         <a className="link-arrow" href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(ask)}`} target="_blank" rel="noopener">
           <WhatsApp width={18} height={18} /> Ask Saniya about this dish
         </a>
