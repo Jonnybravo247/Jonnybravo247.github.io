@@ -89,11 +89,14 @@ const section = (menu, pg) => {
   };
 };
 
+// On the website, desserts sit on the Non-Veg and Veg menus only.
+const WEB_SKIP = { dips: ["Desserts"] };
+
 const menus = [nonveg, veg, dips].map((m) => ({
   slug: m.slug,
   label: m.label,
   unit: m.unit || null,
-  sections: m.pages.flatMap((pg) =>
+  sections: m.pages.filter((pg) => !(WEB_SKIP[m.slug] ?? []).includes(pg.title)).flatMap((pg) =>
     pg.after && pg.after.items === "rice" ? [section(m, pg), section(m, { ...pg.after, title: pg.after.title })] : [section(m, pg)],
   ),
 }));

@@ -159,7 +159,6 @@ export function DishPage({ slug, dish }: { slug: MenuSlug; dish: string }) {
             {prev.name}
           </span>
         </Link>
-        <BackLink href={sectionHref} label={`Back to the ${meta.short} menu`} className="pager__back" />
         <Link href={dishPath(slug, next)} className="pager__link pager__link--next">
           <span>
             <small>Next dish</small>

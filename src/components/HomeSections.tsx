@@ -82,7 +82,7 @@ export function MenuDoors() {
           Choose your <em>menu</em>
         </h2>
         <div className="doors__side">
-          <p className="sec-head__lead">Every menu includes our handmade desserts.</p>
+          <p className="sec-head__lead">Handmade desserts come with the Non-Veg and Veg menus.</p>
           <SearchButton className="btn btn--line doors__search" label={`Search ${INDEX.length} dishes`} />
         </div>
       </div>
